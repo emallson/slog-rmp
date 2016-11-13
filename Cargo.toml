@@ -1,0 +1,13 @@
+[package]
+name = "slog-rmp"
+version = "0.1.0"
+authors = ["J David Smith <emallson@atlanis.net>"]
+
+[dependencies]
+slog = "1.3"
+# slog = { path = "../Fork/slog/" }
+slog-serde = { path = "../Fork/slog/crates/serde/" }
+slog-stream = "1.2"
+# slog-stream = { path = "../Fork/stream/" }
+serde = "0.8"
+rmp-serde = "^0.10"
